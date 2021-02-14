@@ -1,5 +1,5 @@
 const express=require('express')
-const connectDB=require('./config/db')
+const connectDB=require('./Config/db')
 const ProductsRoute=require('./Routes/Products.route')
 const app=express()
 app.use(express.json());
